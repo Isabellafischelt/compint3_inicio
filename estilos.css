@@ -1,13 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
-<body>
-    <h1>Ejemplo para Github</h1>
-</body>
-</html>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: lightgray;
+    display:flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(6, 104, 196);
+}
+.contenedor{
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 20px;
+    height: 100%;
+    min-height: 800px;
+}
